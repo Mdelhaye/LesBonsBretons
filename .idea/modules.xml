@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/LesBonsBretons2.iml" filepath="$PROJECT_DIR$/LesBonsBretons2.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/LesBonsBretons.iml" filepath="$PROJECT_DIR$/LesBonsBretons.iml" />
+>>>>>>> origin/dev
     </modules>
   </component>
 </project>

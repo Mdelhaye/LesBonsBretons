@@ -1,0 +1,63 @@
+//=====================================
+//
+// Creation annonce
+//
+//=====================================
+
+AnnonceEntity annonce = new AnnonceEntity();
+
+CategorieEntity categorie = new CategorieEntity();
+categorie.setIdCategorie(2);
+
+//categorie.setIdSurCategorie(surCategory);
+annonce.setCategorie(categorie);
+
+annonce.setDescriptionAnnonce("mes descritption");
+annonce.setTitreAnnonce("mon titre");
+
+
+la localisation peut etre obtenue dans les données de l'user.
+LocalisationEntity maLocalisation = new LocalisationEntity();
+maLocalisation.setIdVille(17000);
+annonce.setIdAnnonceLocalisation(maLocalisation);
+
+
+annonce.setPrix(32);
+UtilisateurEntity utilisateur = new UtilisateurEntity();
+
+utilisateur.setIdUtilisateur(1);
+
+annonce.setIdUtilisateurAnnonce(utilisateur);
+
+Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+annonce.setDateAnnonce(timestamp);
+JpaAnnonceDao monAnnonce = new JpaAnnonceDao();
+if(monAnnonce.create(annonce))
+{
+    System.out.println("succes");
+}
+else
+{
+    System.out.println("echec");
+
+}
+
+
+//=====================================
+//
+// Suppression annonce
+//
+//=====================================
+
+AnnonceEntity annonce = new AnnonceEntity();
+annonce.setIdAnnonce(5);
+JpaAnnonceDao monAnnonce = new JpaAnnonceDao();
+if(monAnnonce.delete(annonce))
+{
+    System.out.println("succes");
+}
+else
+{
+    System.out.println("echec");
+
+}

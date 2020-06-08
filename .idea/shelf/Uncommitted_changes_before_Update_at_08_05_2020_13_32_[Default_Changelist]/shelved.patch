@@ -1,0 +1,18 @@
+Index: out/production/LesBonsBretons/hibernate.cfg.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version='1.0' encoding='utf-8'?>\r\n<!DOCTYPE hibernate-configuration PUBLIC\r\n        \"-//Hibernate/Hibernate Configuration DTD//EN\"\r\n        \"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd\">\r\n<hibernate-configuration>\r\n    <session-factory>\r\n        <property name=\"connection.url\">jdbc:mysql://54.38.190.187/lbb</property>\r\n        <property name=\"connection.driver_class\">com.mysql.jdbc.Driver</property>\r\n        <property name=\"connection.username\">cchabot</property>\r\n        <property name=\"connection.password\">*w9T$zuRPfi*5Y</property>\r\n        <property name=\"dialect\">org.hibernate.dialect.MySQL5Dialect</property>\r\n        <!-- DB schema will be updated if needed -->\r\n        <!-- <property name=\"hibernate.hbm2ddl.auto\">update</property> -->\r\n    </session-factory>\r\n</hibernate-configuration>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- out/production/LesBonsBretons/hibernate.cfg.xml	(revision ce1a227bb620565937009bfd1fc1b5881d7e6e4b)
++++ out/production/LesBonsBretons/hibernate.cfg.xml	(date 1588937349423)
+@@ -4,7 +4,7 @@
+         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+ <hibernate-configuration>
+     <session-factory>
+-        <property name="connection.url">jdbc:mysql://54.38.190.187/lbb</property>
++        <property name="connection.url">jdbc:mysql://54.38.190.187/lbb?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC</property>
+         <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+         <property name="connection.username">cchabot</property>
+         <property name="connection.password">*w9T$zuRPfi*5Y</property>

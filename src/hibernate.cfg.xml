@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="connection.url">jdbc:mysql://54.38.190.187/lbb?useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC</property>
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="connection.username">cchabot</property>
+        <property name="connection.password">*w9T$zuRPfi*5Y</property>
+        <property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
+
+        <!-- DB schema will be updated if needed -->
+        <property name="hibernate.hbm2ddl.auto">update</property>
+
+        <!-- <mapping class="metier.CaracteristiqueEntity"/>
+        <mapping class="metier.CaracteristiqueHasCC"/>
+        <mapping class="metier.TypeCaseCochee"/>
+        <mapping class="metier.CategorieHasCaracteristique"/>
+        -->
+        <mapping class="metier.CategorieEntity"/>
+        <mapping class="metier.AnnonceEntity"/>
+
+        <mapping class="metier.LocalisationEntity"/>
+        <mapping class="metier.SurCategorieEntity"/>
+
+        <mapping class="metier.UtilisateurEntity"/>
+
+    </session-factory>
+
+
+</hibernate-configuration>
