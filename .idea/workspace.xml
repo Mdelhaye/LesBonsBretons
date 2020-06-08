@@ -1,24 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-<<<<<<< HEAD
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
-  </component>
-  <component name="ProjectId" id="1YvrzwNFJWq1a32ELpUZXbevMY5" />
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LesBonsBretons" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="679" y="407" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583834371001">
-      <screen x="0" y="0" width="1739" height="978" />
-    </state>
-    <state x="679" y="407" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1739.978@0.0.1739.978" timestamp="1583834371001" />
-=======
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -614,6 +595,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
->>>>>>> origin/dev
   </component>
 </project>
